@@ -1,0 +1,151 @@
+body{
+    font-family: Montserrat;
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: "Monsterrat-Bold";
+}
+
+.intro{
+    font-family:Montserrat-Black;
+    size: 3rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar{
+    padding: 0 0 5rem 0;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-link{
+    font-family: "Montserrat-Light";
+    font-size: 1.2rem;
+}
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+.image-title{
+    width: 15%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+.features-head{
+    font-size: 1.5rem;
+    margin-top: 20px;
+
+
+}
+.fa-solid{
+    color: rgb(243, 103, 103);
+}
+.fa-solid:hover{
+    color: #ff4c68;
+}
+
+.feat-box{
+    text-align: center;
+    padding: 5%;
+}
+/* .custom-padding{
+    
+    padding: 0 auto 0 auto;
+} */
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-image{
+    margin-top: 3%;
+    margin-right: 3%;
+}
+.btn-width{
+    text-align: center;
+    width:90%;
+}
+.btn-cent{
+    text-align: center;
+}
+#pricing{
+    padding: 100px;
+}
+.pricing-column{
+    padding: 3% 2%;
+    text-align: center;
+}
+
+
+.cta-style{
+    padding: 10px 10px;
+}
+.cta-font{
+    font-size: 3rem;
+}
+
+.footer-custom{
+    margin: 20px 10px;
+}
+
+#features{
+    font-family: Montserrat-bold;
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+#press{
+    background-color: rgb(243, 103, 103);
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: rgb(243, 103, 103);
+    color: #fff;
+}
+
+#cta{
+    background-color: #ff4c68;
+    font-family: monsterrat-black;
+    color: #fff;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+#footer{
+    padding: 3%;
+    text-align: center;
+}
+
+@media (max-width:1000px) {
+    #title{
+        text-align: center;
+    }
+    .image-title{
+    width: 50%;
+    transform: rotate(0);
+    position: static;
+}
+}
